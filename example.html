@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ViewManager Demo Site</title>
+<base href="./">
+</head>
+<body>
+<nav>Navigation Bar: <a href="./page1">Internal Link 1</a> <a href="./page2">Internal Link 2</a>  <a href="https://github.com">External Link</a></nav>
+<section id="home">
+<p>Welcome to the ViewManager Demo Site!</p>
+</section>
+<section id="page1">
+<p>This is page 1!</p>
+<p>Second when you opened this page: <span id="seconds">loading</span></p>
+</section>
+<section id="page2">
+<p>Welcome to page 2! Check out this list of users!</p>
+<ul>
+<li><a href="./users/bob">Bob</a></li>
+<li><a href="./users/ann">Ann</a></li>
+<li><a href="./users/steve">Steve</a></li>
+<li><a href="./users/emily">Emily</a></li>
+</ul>
+</section>
+<section id="error">
+<p>Error 404: Page not found</p>
+</section>
+<section id="user">
+<p>Welcome to <span id="username">loading</span>'s profile!</p>
+</section>
+</body>
+<script src="./viewmanager.js"></script>
+<script src="./example.js"></script>
+</html>
